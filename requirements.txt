@@ -1,0 +1,6 @@
+# computer-vision — actual imports across src/20260615
+tensorflow>=2.10        # tf.keras: Sequential, Conv2D/MaxPooling2D/Dense/Dropout/Flatten, ImageDataGenerator, image utils, callbacks, load_model, to_categorical
+numpy                   # 배열 연산, argmax, arange
+matplotlib              # 이미지 및 학습 곡선 시각화 (imshow, savefig)
+scikit-learn            # load_digits, train_test_split
+pillow                  # Keras 이미지 로드/증강 백엔드 (ImageDataGenerator, load_img)
